@@ -1,0 +1,40 @@
+.main-head {
+    background: #131c27;
+    color: white;
+    position: static;
+    z-index: 5;
+    top: 0px;
+    min-height: 10vh;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    nav {
+        padding: 2rem;
+        margin: auto;
+        align-items: center;
+        flex-wrap: wrap;
+        position: sticky;
+        z-index: 4;
+        flex: 1 1 40px;
+        display: flex;
+    }
+    nav ul {
+        display: flex;
+        flex: 1 1 40px;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #Logo {
+        flex: 1 1 40px;
+        font-family: 'Lobster', sans-serif;
+        font-weight: normal;
+    }
+    li a {
+        padding: 2rem;
+    }
+    nav li a:hover {
+        filter: opacity(.4);
+    }
+}

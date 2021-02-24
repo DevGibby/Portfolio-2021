@@ -1,0 +1,55 @@
+#projects {
+    min-height: 130vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(./images/about-pic.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .projects-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+        width: 90%;
+        grid-row-gap: 3rem;
+        min-height: 110vh;
+    }
+    .project-wrapper {
+        display: flex;
+        background: rgba(177, 177, 177, 0.8);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 2rem;
+    }
+    .p-link {
+        padding: 1rem;
+        color: #27394e;
+        margin: 1rem;
+    }
+    .p-link:hover {
+        color: #0075fa;
+        text-decoration: underline;
+    }
+    .project-image {
+        width: 80%;
+    }
+    .project-image:hover {
+        filter: opacity(.5);
+    }
+    .projects-head {
+        padding: 2rem;
+        min-height: 10vh;
+        display: flex;
+        color: white;
+        position: relative;
+        font-size: 3rem;
+        right: 30%;
+    }
+}

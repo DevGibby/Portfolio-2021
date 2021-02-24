@@ -1,0 +1,39 @@
+#home {
+    max-width: 100vw;
+    overflow: hidden;
+    .home-container {
+        min-height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(./images/home-pic2.jpg);
+        transform: scale(1.1);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .home-qoute {
+        color: white;
+        z-index: 99;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+        flex-direction: column;
+    }
+    .home-qoute h2 {
+        font-size: 3rem;
+    }
+    .home-qoute img {
+        width: 50%;
+        filter: grayscale(70%);
+    }
+    #sass {
+        transform: scale(.3);
+    }
+}
