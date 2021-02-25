@@ -15,7 +15,7 @@ function Footer() {
                     <a href="mailto:gibsonrwailliam@outlook.com" target="_blank"><img src={Email} width="200px "/></a>
                  </li>
                     <li>
-                    <a href="https://github.com/wgibson17" target="_blank"><img src={Github} width="200px" /></a>
+                    <a href="https://github.com/DevGibby" target="_blank"><img src={Github} width="200px" /></a>
                  </li>
                     <li>
                     <a href="https://www.linkedin.com/in/william-gibson-868182104/" target="_blank"><img src={Linkedin} width="200px"/></a>

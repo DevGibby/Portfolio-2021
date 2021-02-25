@@ -202,6 +202,24 @@ a {
           transform: scale(0.3);
 }
 
+#home #topBtn {
+  min-width: 6%;
+  min-height: 5%;
+  color: rgba(19, 28, 39, 0.8);
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  top: 90%;
+  left: 92%;
+  display: none;
+  cursor: pointer;
+}
+
+#home #topBtn:hover {
+  background: black;
+  color: white;
+}
+
 #about {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)), url(./images/about-pic2.jpg);
