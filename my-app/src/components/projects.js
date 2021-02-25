@@ -8,7 +8,7 @@ function Projects() {
     return (
       <div className="Projects">
         <section id="projects">
-            <h3 className="projects-head">Projects</h3>
+            <h2 className="projects-head">Projects</h2>
                 <div className="projects-container">
                     <div className="project-wrapper">
                          <p>This Project is a ECommerce Marketplace design aimed at being functional all the way from item selection checkout using APIs such as the PayPal API for the checkout expierence and Okta some the customer can make a profile.

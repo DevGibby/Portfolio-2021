@@ -289,7 +289,7 @@ a {
           align-items: center;
   text-align: center;
   width: 100%;
-  margin: auto;
+  margin: 1rem auto;
   padding: 2rem;
 }
 
@@ -321,8 +321,6 @@ a {
   display: flex;
   color: white;
   position: relative;
-  font-size: 3rem;
-  right: 30%;
 }
 
 #contact {
@@ -344,9 +342,10 @@ a {
 
 #contact .form-wrapper {
   background: rgba(19, 28, 39, 0.8);
-  width: 60%;
+  width: 80%;
   color: white;
   border-radius: 20px;
+  margin: auto;
 }
 
 #contact .form-head {
