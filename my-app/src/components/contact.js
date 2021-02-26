@@ -5,20 +5,20 @@ function Contact() {
     return (
       <div className="Contact">
         <section id="contact">
-        <div class="form-wrapper">
-            <header class="form-head">
+        <div className="form-wrapper">
+            <header className="form-head">
                 <h2>Contact</h2>
             </header>
             <form action="https://formspree.io/f/mrgorkdq" method="POST">
-                <div class="name-form">
+                <div className="name-form">
                     <label for="name">Name:</label>
                     <input type="text " name="name" required />
                 </div>
-                <div class="email-form">
+                <div className="email-form">
                     <label for="email">Email:</label>
                     <input type="email" required name="email" />
                 </div>
-                <div class="textarea">
+                <div className="textarea">
                     <textarea id="textarea" required name="textarea" rows="10" cols="100"></textarea>
                 </div>
                 <button type="submit" value="send">Submit</button>

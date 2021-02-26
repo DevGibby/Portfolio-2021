@@ -1,6 +1,9 @@
 import React from 'react';
 //images
 import Stack from '../styles/images/html-css-js-sass-react.png';
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
 
@@ -26,7 +29,7 @@ function topFunction() {
                 <img src={Stack} alt="tech stack"/>
             </div>
           </div>
-          <button id="topBtn" onClick={topFunction}>Top</button>
+          <button id="topBtn" onClick={topFunction}><FontAwesomeIcon className="topBtn-icon" icon={faChevronUp} size="2x"/></button>
         </section>
       </div>
     );

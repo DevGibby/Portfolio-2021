@@ -36,11 +36,15 @@
     #sass {
         transform: scale(.3);
     }
+    button {
+        background: white;
+    }
     #topBtn {
         min-width: 6%;
         min-height: 5%;
         color: rgba(19, 28, 39, 0.8);
-        background-color: white;
+        background-color: none;
+        border: none;
         position: fixed;
         z-index: 99;
         top: 90%;

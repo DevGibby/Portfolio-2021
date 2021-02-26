@@ -1,38 +1,43 @@
-    footer {
-        color: white;
-        background: rgba(19, 28, 39, 0.8);
-        .footer-wrapper {
-            display: flex;
-            padding: 2rem;
-            width: 50%;
-            margin: auto;
-            align-items: center;
-            min-height: 5vh;
-            flex-wrap: wrap;
+        footer {
+            color: white;
+            background: rgba(19, 28, 39, 0.8);
+            .footer-wrapper {
+                display: flex;
+                padding: 2rem;
+                width: 70%;
+                margin: auto;
+                align-items: center;
+                min-height: 5vh;
+                flex-wrap: wrap;
+            }
+            footer h5 {
+                flex: 1 1 40rem;
+            }
+            footer ul {
+                z-index: 99;
+                display: flex;
+                list-style: none;
+                flex: 1 1 40rem;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .footer-icon {
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                &:hover {
+                    filter: opacity(50%);
+                }
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                z-index: 99;
+                width: 100%;
+                justify-content: space-between;
+            }
+            li {
+                margin: 1rem;
+                z-index: 99;
+            }
         }
-        footer h5 {
-            flex: 1 1 40rem;
-        }
-        footer ul {
-            display: flex;
-            list-style: none;
-            flex: 1 1 40rem;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .footer-wrapper img {
-            align-items: center;
-            justify-content: center;
-            max-width: 100%;
-        }
-        .footer-wrapper img:hover {
-            filter: opacity(50%);
-        }
-        ul {
-            display: flex;
-            list-style: none;
-        }
-        li {
-            margin: 1rem;
-        }
-    }
