@@ -1,6 +1,5 @@
 import React from 'react';
-//images
-import Stack from '../styles/images/html-css-js-sass-react.png';
+
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
@@ -25,8 +24,7 @@ function topFunction() {
         <section id="home">
           <div className="home-container">
             <div className="home-qoute">
-                <h2>Hello! My name is Bill and I am a Web Developer</h2>
-                <img src={Stack} alt="tech stack"/>
+                <h2>Hello! My name is Bill and I am a Web Developer!</h2>
             </div>
           </div>
           <button id="topBtn" onClick={topFunction}><FontAwesomeIcon className="topBtn-icon" icon={faChevronUp} size="2x"/></button>
