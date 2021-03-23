@@ -4,7 +4,7 @@ function Nav() {
     return (
       <div className="Nav">
         <header className="main-head">
-            <h2 id="Logo">William "Bill" Gibson</h2>
+            <h2 id="Logo">Bill Gibson</h2>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>

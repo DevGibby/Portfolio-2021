@@ -17,13 +17,13 @@ function Footer() {
             <div className="footer-wrapper">
                 <ul>
                  <li>
-                    <a href="mailto:gibsonrwailliam@outlook.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="footer-icon" size="4x"/></a>
+                    <a href="mailto:billgibsondev@outlook.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="footer-icon" size="4x"/></a>
                  </li>
                     <li>
                     <a href="https://github.com/DevGibby" target="_blank"><FontAwesomeIcon icon={faGithub} className="footer-icon" size="4x"/></a>
                  </li>
                     <li>
-                    <a href="https://www.linkedin.com/in/william-gibson-868182104/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="footer-icon" size="4x"/></a>
+                    <a href="https://www.linkedin.com/in/bill-gibson-868182104/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="footer-icon" size="4x"/></a>
                  </li>
                  <li>
                     <a href="https://twitter.com/DevGibby" target="_blank" ><FontAwesomeIcon className="footer-icon" icon={faTwitter} size="4x"/></a>
